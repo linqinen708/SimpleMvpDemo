@@ -18,8 +18,6 @@ public class MainActivity extends BaseMvpActivity<MainActivityPresenter> impleme
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
     }
 
     @Override
@@ -33,8 +31,6 @@ public class MainActivity extends BaseMvpActivity<MainActivityPresenter> impleme
             case R.id.btn:
                 getPresenter().httpRequest();
                 break;
-
-
             default:
                 break;
         }
